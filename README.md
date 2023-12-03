@@ -9,3 +9,6 @@ Team Members:
 - Ibnu Hasan C256BSY3118
 - Irsyad Halimi C193BSY3779
 - Adjie Fauzan Muttaqin C491BSY4142
+
+# Project Plan Document
+[Link Project Plan](https://docs.google.com/document/d/1PMCEKqtCIhXkZkfvbOby7mso87_mXo0LEJmka7PsVAE/edit)
