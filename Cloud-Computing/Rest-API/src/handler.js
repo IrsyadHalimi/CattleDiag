@@ -1,29 +1,43 @@
-/* eslint-disable import/no-extraneous-dependencies */
-
 const { nanoid } = require('nanoid');
-const cattleSymptom = require('./cattleSymptom');
+const db = require('./dbConfig');
+const symptom = require('./symptom');
 
-const addSymptomHandler = (request, h) => {
-  const { cattle, desc } = request.payload;
-
-  const id = nanoid(16);
-  const createdAt = new Date().toISOString();
-  const updatedAt = createdAt;
+const symptomHandler = async (request, h) => {
+  const { symptomDesc } = request.payload;
+  const symptomId = nanoid(16);
+  const created = new Date().toISOString();
+  const updated = created;
 
   const newSymptom = {
-    cattle, desc, id, createdAt, updatedAt,
+    symptomId, symptomDesc, created, updated,
   };
 
-  cattleSymptom.push(newSymptom);
+  symptom.push(newSymptom);
 
-  const isSuccess = cattleSymptom.filter((symptom) => symptom.id === id).length > 0;
+  const isSuccess = symptom.filter((symptomJson) => symptomJson.symptomId === symptomId).length > 0;
+
+  // call ML model
+  // return diagnose
 
   if (isSuccess) {
+    const id = symptomId;
+    const description = symptomDesc;
+    const createdAt = created;
+    const updatedAt = updated;
+    const sql = `INSERT INTO symptom (id, description, createdAt, updatedAt) VALUE ('${id}', '${description}', '${createdAt}', '${updatedAt}')`;
+    db.query(sql, (err, result) => {
+      if (err) {
+        console.log('error insert data', err);
+        response.code(500);
+        return response;
+      }
+      console.log('1 record inserted');
+    });
     const response = h.response({
       status: 'success',
       message: 'Gejala berhasil ditambahkan',
       data: {
-        symptomId: id,
+        id: symptomId,
       },
     });
     response.code(201);
@@ -38,4 +52,4 @@ const addSymptomHandler = (request, h) => {
   return response;
 };
 
-module.exports = { addSymptomHandler };
+module.exports = { symptomHandler };

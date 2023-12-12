@@ -1,17 +1,15 @@
-/* eslint-disable linebreak-style */
 const Joi = require('joi');
-const { addSymptomHandler } = require('./handler');
+const { symptomHandler } = require('./handler');
 
 const routes = [
   {
     method: 'POST',
-    path: '/symptom',
-    handler: addSymptomHandler,
+    path: '/diagnose',
+    handler: symptomHandler,
     options: {
       validate: {
         payload: Joi.object({
-          cattle: Joi.string().required(),
-          desc: Joi.string().required(),
+          symptomDesc: Joi.string().required(),
         }),
       },
     },
