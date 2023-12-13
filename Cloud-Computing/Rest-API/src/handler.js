@@ -1,37 +1,27 @@
 const { nanoid } = require('nanoid');
 const db = require('./dbConfig');
-const symptom = require('./symptom');
 
-const symptomHandler = async (request, h) => {
+const addSymptom = async (request, h) => {
   const { symptomDesc } = request.payload;
-  const symptomId = nanoid(16);
+  const symptomId = nanoid(6);
   const created = new Date().toISOString();
   const updated = created;
-
-  const newSymptom = {
-    symptomId, symptomDesc, created, updated,
-  };
-
-  symptom.push(newSymptom);
-
-  const isSuccess = symptom.filter((symptomJson) => symptomJson.symptomId === symptomId).length > 0;
 
   // call ML model
   // return diagnose
 
-  if (isSuccess) {
+  if (symptomDesc) {
     const id = symptomId;
     const description = symptomDesc;
     const createdAt = created.slice(0, 19).replace('T', ' ');
     const updatedAt = updated.slice(0, 19).replace('T', ' ');
-    const sql = `INSERT INTO symptom (id, description, createdAt, updatedAt) VALUE ('${id}', '${description}', '${createdAt}', '${updatedAt}')`;
+    const sql = await `INSERT INTO symptom (id, description, createdAt, updatedAt) VALUE ('${id}', '${description}', '${createdAt}', '${updatedAt}')`;
     db.query(sql, (err, result) => {
       if (err) {
         console.log('error insert data', err);
         response.code(500);
         return response;
       }
-      console.log('1 record inserted');
     });
     const response = h.response({
       status: 'success',
@@ -52,4 +42,16 @@ const symptomHandler = async (request, h) => {
   return response;
 };
 
-module.exports = { symptomHandler };
+const getAllSymptom = async (request, h) => {
+  const sql = await new Promise((resolve, reject) => {
+    db.query('SELECT * FROM symptom', (err, result) => {
+      if (err) {
+        reject(err);
+      }
+      resolve(result);
+    });
+  });
+  return h.response(sql).code(201);
+};
+
+module.exports = { addSymptom, getAllSymptom };

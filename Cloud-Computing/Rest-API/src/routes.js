@@ -1,11 +1,11 @@
 const Joi = require('joi');
-const { symptomHandler } = require('./handler');
+const { addSymptom, getAllSymptom } = require('./handler');
 
 const routes = [
   {
     method: 'POST',
     path: '/diagnose',
-    handler: symptomHandler,
+    handler: addSymptom,
     options: {
       validate: {
         payload: Joi.object({
@@ -13,6 +13,11 @@ const routes = [
         }),
       },
     },
+  },
+  {
+    method: 'GET',
+    path: '/symptoms',
+    handler: getAllSymptom,
   },
 ];
 
