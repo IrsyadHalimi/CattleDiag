@@ -22,8 +22,8 @@ const symptomHandler = async (request, h) => {
   if (isSuccess) {
     const id = symptomId;
     const description = symptomDesc;
-    const createdAt = created;
-    const updatedAt = updated;
+    const createdAt = created.slice(0, 19).replace('T', ' ');
+    const updatedAt = updated.slice(0, 19).replace('T', ' ');
     const sql = `INSERT INTO symptom (id, description, createdAt, updatedAt) VALUE ('${id}', '${description}', '${createdAt}', '${updatedAt}')`;
     db.query(sql, (err, result) => {
       if (err) {
