@@ -3,7 +3,7 @@ const db = require('./dbConfig');
 
 const addSymptom = async (request, h) => {
   const { symptomDesc } = request.payload;
-  const symptomId = nanoid(16);
+  const symptomId = nanoid(6);
   const created = new Date().toISOString();
   const updated = created;
 
@@ -22,7 +22,6 @@ const addSymptom = async (request, h) => {
         response.code(500);
         return response;
       }
-      console.log('1 record inserted');
     });
     const response = h.response({
       status: 'success',
@@ -43,4 +42,16 @@ const addSymptom = async (request, h) => {
   return response;
 };
 
-module.exports = { addSymptom };
+const getAllSymptom = async (request, h) => {
+  const sql = await new Promise((resolve, reject) => {
+    db.query('SELECT * FROM symptom', (err, result) => {
+      if (err) {
+        reject(err);
+      }
+      resolve(result);
+    });
+  });
+  return h.response(sql).code(201);
+};
+
+module.exports = { addSymptom, getAllSymptom };

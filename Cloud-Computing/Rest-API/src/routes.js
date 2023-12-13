@@ -1,5 +1,5 @@
 const Joi = require('joi');
-const { addSymptom } = require('./handler');
+const { addSymptom, getAllSymptom } = require('./handler');
 
 const routes = [
   {
@@ -13,6 +13,11 @@ const routes = [
         }),
       },
     },
+  },
+  {
+    method: 'GET',
+    path: '/symptoms',
+    handler: getAllSymptom,
   },
 ];
 
