@@ -1,10 +1,11 @@
 const mysql = require('mysql');
 
 const db = mysql.createConnection({
-  host: '34.101.249.251',
-  user: 'irsyad',
-  password: 'irsyad123',
-  database: 'cattle_diag',
+  host: '127.0.0.1',
+  port: 'cloudsql_port',
+  database: 'your_database',
+  user: 'user_database',
+  password: 'password_database',
 });
 
 module.exports = db;
