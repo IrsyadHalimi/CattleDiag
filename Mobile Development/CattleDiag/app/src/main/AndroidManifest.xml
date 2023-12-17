@@ -16,13 +16,13 @@
             android:name=".presentation.identify.IdentifyActivity"
             android:exported="false" />
         <activity
-            android:name=".presentation.splash.SplashActivity"
+            android:name=".presentation.main.MainActivity"
             android:exported="false" />
         <activity
             android:name=".presentation.result.ResultActivity"
             android:exported="false" />
         <activity
-            android:name=".presentation.main.MainActivity"
+            android:name=".presentation.splash.SplashActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
