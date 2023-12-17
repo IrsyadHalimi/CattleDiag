@@ -1,0 +1,37 @@
+R_DEF: Internal format may change without notice
+local
+array Animal
+color beige
+color black
+color brown
+color green
+color sage
+color white
+drawable baseline_health_and_safety_24
+drawable catlediag
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+id Identify
+id btn_confirm
+id btn_main
+id btn_result
+id cattlediag
+id ed_description
+id iv_result
+id result
+id selectAnimal
+id spinner
+id splashCattleDiag
+id tv_result
+layout activity_identify
+layout activity_main
+layout activity_result
+layout activity_splash
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+string selected_item
+style Base.Theme.CattleDiag
+style Theme.CattleDiag
+xml backup_rules
+xml data_extraction_rules
