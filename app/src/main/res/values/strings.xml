@@ -2,8 +2,6 @@
     <string name="app_name">CattleDiag</string>
     <string name="selected_item">Hewan yang dipilih:</string>
 
-
-
     <string-array name="Animal">
         <item>Sapi</item>
         <item>Domba</item>
