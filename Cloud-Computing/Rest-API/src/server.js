@@ -16,8 +16,11 @@ const init = async () => {
   server.route(routes);
 
   await db.connect(function (err) {
-    if (err) throw err;
-    console.log('Database Connected');
+    if (err) {
+      console.log('Database NOT Connected!');
+    } else {
+      console.log('Database Connected');
+    }
   });
 
   await server.start();

@@ -1,5 +1,5 @@
 const Joi = require('joi');
-const { addSymptom, getAllSymptom } = require('./handler');
+const { addSymptom, getAllSymptom, getAllDesease } = require('./handler');
 
 const routes = [
   {
@@ -9,6 +9,7 @@ const routes = [
     options: {
       validate: {
         payload: Joi.object({
+          animalId: Joi.string().required(),
           symptomDesc: Joi.string().required(),
         }),
       },
@@ -18,6 +19,11 @@ const routes = [
     method: 'GET',
     path: '/symptoms',
     handler: getAllSymptom,
+  },
+  {
+    method: 'GET',
+    path: '/deseases',
+    handler: getAllDesease,
   },
 ];
 
