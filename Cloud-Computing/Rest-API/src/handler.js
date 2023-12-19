@@ -5,7 +5,7 @@ const addSymptom = async (request, h) => {
   try {
     const { animalId, symptomDesc } = request.payload;
     const symptomId = nanoid(6);
-    const created = new Date().toISOString();
+    const created = new Date().toISOString().slice(0, 19).replace('T', ' ');
     const updated = created;
     
     const query = `INSERT INTO symptom (id, animal_id, description, createdAt, updatedAt) VALUE (?, ?, ?, ?, ?)`;
