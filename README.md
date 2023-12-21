@@ -14,6 +14,10 @@ Team Members:
 # Project Plan Document
 [Link Project Plan](https://docs.google.com/document/d/1PMCEKqtCIhXkZkfvbOby7mso87_mXo0LEJmka7PsVAE/edit)
 
+# download apk file
+[Repository](https://github.com/IrsyadHalimi/CattleDiag/blob/2a9c9e2186802ec9e7a6695768aca962a38b2a4c/Mobile%20Development/CattleDiag.apk)
+[Google Drive](https://drive.google.com/file/d/1fgIgi94K-ooc-nWYPfTAlsyb7hm79zm3/view?usp=drive_link)
+
 --------------------------------------------
 
 # Cloud/Backend Documentation
@@ -81,3 +85,24 @@ Create Cloud SQL MySQL
 - Click on the created instance ID
 - Click 'Open Cloud Shell'
 - Create a database, create a table, insert data"
+
+
+## Run API in Locally
+Ensure that Node.js version is installed, equal to or greater than 16.x.x.
+
+Open terminal, then execute command below
+
+```bash
+  git clone https://github.com/IrsyadHalimi/CattleDiag.git
+
+```
+```bash
+  cd CattleDiag/Cloud-Computing/Rest-API
+```
+```bash
+  npm install
+```
+```bash
+  npm run start-dev
+```
+    
