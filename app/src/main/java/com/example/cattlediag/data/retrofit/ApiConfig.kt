@@ -1,5 +1,6 @@
 package com.example.cattlediag.data.retrofit
 
+import android.content.Context
 import com.loopj.android.http.BuildConfig
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor
