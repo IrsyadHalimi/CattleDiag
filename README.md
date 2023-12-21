@@ -87,6 +87,13 @@ Create Cloud SQL MySQL
 - Click 'Open Cloud Shell'
 - Create a database, create a table, insert data"
 
+Learn more in Google Cloud Official Documentation
+
+https://cloud.google.com/sql/docs/mysql/connect-compute-engine
+
+https://cloud.google.com/sql/docs/mysql/samples/cloud-sql-mysql-mysql-connection
+
+
 
 ## Run API in Locally
 Ensure that Node.js version is installed, equal to or greater than 16.x.x.
