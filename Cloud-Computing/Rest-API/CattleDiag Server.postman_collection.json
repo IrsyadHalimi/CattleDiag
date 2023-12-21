@@ -1,0 +1,84 @@
+{
+	"info": {
+		"_postman_id": "12e39e4f-7279-42bf-bbea-879c204cb79c",
+		"name": "CattleDiag Server",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "GET Symptoms",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://34.128.94.108:8080/symptoms",
+					"protocol": "http",
+					"host": [
+						"34",
+						"128",
+						"94",
+						"108"
+					],
+					"port": "8080",
+					"path": [
+						"symptoms"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET Deseases",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://34.128.94.108:8080/deseases",
+					"protocol": "http",
+					"host": [
+						"34",
+						"128",
+						"94",
+						"108"
+					],
+					"port": "8080",
+					"path": [
+						"deseases"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ADD Symptoms",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"animalId\": \"Sapi\",\r\n    \"symptomDesc\": \"Terdapa liur berlebih pada mulut\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://34.128.94.108:8080/diagnose",
+					"protocol": "http",
+					"host": [
+						"34",
+						"128",
+						"94",
+						"108"
+					],
+					"port": "8080",
+					"path": [
+						"diagnose"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
