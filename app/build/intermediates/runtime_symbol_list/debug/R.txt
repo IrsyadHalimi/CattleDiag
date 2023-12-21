@@ -3048,6 +3048,8 @@ int drawable notification_template_icon_bg 0x7f0700da
 int drawable notification_template_icon_low_bg 0x7f0700db
 int drawable notification_tile_bg 0x7f0700dc
 int drawable notify_panel_notification_icon_bg 0x7f0700dd
+int drawable ranch1 0x7f0700e2
+int drawable ranch2 0x7f0700e3
 int drawable test_level_drawable 0x7f0700de
 int drawable tooltip_frame_dark 0x7f0700df
 int drawable tooltip_frame_light 0x7f0700e0
@@ -3276,6 +3278,7 @@ int id ifRoom 0x7f0800dc
 int id ignore 0x7f0800dd
 int id ignoreRequest 0x7f0800de
 int id image 0x7f0800df
+int id img_result 0x7f080200
 int id immediateStop 0x7f0800e0
 int id included 0x7f0800e1
 int id indeterminate 0x7f0800e2
@@ -3284,7 +3287,6 @@ int id invisible 0x7f0800e4
 int id inward 0x7f0800e5
 int id italic 0x7f0800e6
 int id item_touch_helper_previous_elevation 0x7f0800e7
-int id iv_result 0x7f0800e8
 int id jumpToEnd 0x7f0800e9
 int id jumpToStart 0x7f0800ea
 int id labeled 0x7f0800eb
@@ -3410,6 +3412,7 @@ int id pin 0x7f080162
 int id position 0x7f080163
 int id postLayout 0x7f080164
 int id pressed 0x7f080165
+int id progress_bar 0x7f080201
 int id progress_circular 0x7f080166
 int id progress_horizontal 0x7f080167
 int id radio 0x7f080168
@@ -3534,7 +3537,9 @@ int id transition_position 0x7f0801e0
 int id transition_scene_layoutid_cache 0x7f0801e1
 int id transition_transform 0x7f0801e2
 int id triangle 0x7f0801e3
-int id tv_result 0x7f0801e4
+int id tv_result_desc 0x7f080202
+int id tv_result_preventation 0x7f080203
+int id tv_result_treatment 0x7f080204
 int id unchecked 0x7f0801e5
 int id uniform 0x7f0801e6
 int id unlabeled 0x7f0801e7
@@ -7116,3 +7121,4 @@ int[] styleable include { 0x7f030135 }
 int styleable include_constraintSet 0
 int xml backup_rules 0x7f120000
 int xml data_extraction_rules 0x7f120001
+int xml network_security_config 0x7f120002

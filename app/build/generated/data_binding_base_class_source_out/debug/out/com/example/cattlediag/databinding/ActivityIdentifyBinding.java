@@ -6,6 +6,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ProgressBar;
 import android.widget.Spinner;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
@@ -32,18 +33,22 @@ public final class ActivityIdentifyBinding implements ViewBinding {
   public final EditText edDescription;
 
   @NonNull
+  public final ProgressBar progressBar;
+
+  @NonNull
   public final TextView selectAnimal;
 
   @NonNull
   public final Spinner spinner;
 
   private ActivityIdentifyBinding(@NonNull ConstraintLayout rootView, @NonNull TextView Identify,
-      @NonNull Button btnConfirm, @NonNull EditText edDescription, @NonNull TextView selectAnimal,
-      @NonNull Spinner spinner) {
+      @NonNull Button btnConfirm, @NonNull EditText edDescription, @NonNull ProgressBar progressBar,
+      @NonNull TextView selectAnimal, @NonNull Spinner spinner) {
     this.rootView = rootView;
     this.Identify = Identify;
     this.btnConfirm = btnConfirm;
     this.edDescription = edDescription;
+    this.progressBar = progressBar;
     this.selectAnimal = selectAnimal;
     this.spinner = spinner;
   }
@@ -93,6 +98,12 @@ public final class ActivityIdentifyBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.progress_bar;
+      ProgressBar progressBar = ViewBindings.findChildViewById(rootView, id);
+      if (progressBar == null) {
+        break missingId;
+      }
+
       id = R.id.selectAnimal;
       TextView selectAnimal = ViewBindings.findChildViewById(rootView, id);
       if (selectAnimal == null) {
@@ -106,7 +117,7 @@ public final class ActivityIdentifyBinding implements ViewBinding {
       }
 
       return new ActivityIdentifyBinding((ConstraintLayout) rootView, Identify, btnConfirm,
-          edDescription, selectAnimal, spinner);
+          edDescription, progressBar, selectAnimal, spinner);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

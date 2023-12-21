@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Lenovo\Desktop\BANGKIT\Capstone\CattleDiag\Mobile Development\CattleDiag\app\src\main\AndroidManifest.xml:2:1-35:12
-INJECTED from C:\Users\Lenovo\Desktop\BANGKIT\Capstone\CattleDiag\Mobile Development\CattleDiag\app\src\main\AndroidManifest.xml:2:1-35:12
-INJECTED from C:\Users\Lenovo\Desktop\BANGKIT\Capstone\CattleDiag\Mobile Development\CattleDiag\app\src\main\AndroidManifest.xml:2:1-35:12
-INJECTED from C:\Users\Lenovo\Desktop\BANGKIT\Capstone\CattleDiag\Mobile Development\CattleDiag\app\src\main\AndroidManifest.xml:2:1-35:12
+ADDED from C:\Users\Lenovo\Desktop\BANGKIT\Capstone\CattleDiag\Mobile Development\CattleDiag\app\src\main\AndroidManifest.xml:2:1-38:12
+INJECTED from C:\Users\Lenovo\Desktop\BANGKIT\Capstone\CattleDiag\Mobile Development\CattleDiag\app\src\main\AndroidManifest.xml:2:1-38:12
+INJECTED from C:\Users\Lenovo\Desktop\BANGKIT\Capstone\CattleDiag\Mobile Development\CattleDiag\app\src\main\AndroidManifest.xml:2:1-38:12
+INJECTED from C:\Users\Lenovo\Desktop\BANGKIT\Capstone\CattleDiag\Mobile Development\CattleDiag\app\src\main\AndroidManifest.xml:2:1-38:12
 MERGED from [androidx.databinding:viewbinding:8.1.1] C:\Users\Lenovo\.gradle\caches\transforms-3\f575a921f4883b7da1dfb68c88f72817\transformed\viewbinding-8.1.1\AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.android.material:material:1.10.0] C:\Users\Lenovo\.gradle\caches\transforms-3\c6066b7ed72342207299941b8297a607\transformed\material-1.10.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.room:room-ktx:2.5.2] C:\Users\Lenovo\.gradle\caches\transforms-3\2862f6b7625f5188f4ce3db97e1ebfc1\transformed\room-ktx-2.5.2\AndroidManifest.xml:17:1-22:12
@@ -72,9 +72,13 @@ MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\Lenovo\
 		INJECTED from C:\Users\Lenovo\Desktop\BANGKIT\Capstone\CattleDiag\Mobile Development\CattleDiag\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\Lenovo\Desktop\BANGKIT\Capstone\CattleDiag\Mobile Development\CattleDiag\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\Lenovo\Desktop\BANGKIT\Capstone\CattleDiag\Mobile Development\CattleDiag\app\src\main\AndroidManifest.xml:5:5-67
+	android:name
+		ADDED from C:\Users\Lenovo\Desktop\BANGKIT\Capstone\CattleDiag\Mobile Development\CattleDiag\app\src\main\AndroidManifest.xml:5:22-64
 application
-ADDED from C:\Users\Lenovo\Desktop\BANGKIT\Capstone\CattleDiag\Mobile Development\CattleDiag\app\src\main\AndroidManifest.xml:5:5-33:19
-INJECTED from C:\Users\Lenovo\Desktop\BANGKIT\Capstone\CattleDiag\Mobile Development\CattleDiag\app\src\main\AndroidManifest.xml:5:5-33:19
+ADDED from C:\Users\Lenovo\Desktop\BANGKIT\Capstone\CattleDiag\Mobile Development\CattleDiag\app\src\main\AndroidManifest.xml:7:5-36:19
+INJECTED from C:\Users\Lenovo\Desktop\BANGKIT\Capstone\CattleDiag\Mobile Development\CattleDiag\app\src\main\AndroidManifest.xml:7:5-36:19
 MERGED from [com.google.android.material:material:1.10.0] C:\Users\Lenovo\.gradle\caches\transforms-3\c6066b7ed72342207299941b8297a607\transformed\material-1.10.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.10.0] C:\Users\Lenovo\.gradle\caches\transforms-3\c6066b7ed72342207299941b8297a607\transformed\material-1.10.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.room:room-runtime:2.5.2] C:\Users\Lenovo\.gradle\caches\transforms-3\b00b9080dddda6e3abf21516dc121659\transformed\room-runtime-2.5.2\AndroidManifest.xml:23:5-29:19
@@ -100,57 +104,59 @@ MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Lenovo\.gradle\cac
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.9.0] C:\Users\Lenovo\.gradle\caches\transforms-3\738147d0f85917708540e295877f94a3\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
 	android:supportsRtl
-		ADDED from C:\Users\Lenovo\Desktop\BANGKIT\Capstone\CattleDiag\Mobile Development\CattleDiag\app\src\main\AndroidManifest.xml:12:9-35
+		ADDED from C:\Users\Lenovo\Desktop\BANGKIT\Capstone\CattleDiag\Mobile Development\CattleDiag\app\src\main\AndroidManifest.xml:15:9-35
 	android:label
-		ADDED from C:\Users\Lenovo\Desktop\BANGKIT\Capstone\CattleDiag\Mobile Development\CattleDiag\app\src\main\AndroidManifest.xml:10:9-41
+		ADDED from C:\Users\Lenovo\Desktop\BANGKIT\Capstone\CattleDiag\Mobile Development\CattleDiag\app\src\main\AndroidManifest.xml:13:9-41
 	android:fullBackupContent
-		ADDED from C:\Users\Lenovo\Desktop\BANGKIT\Capstone\CattleDiag\Mobile Development\CattleDiag\app\src\main\AndroidManifest.xml:8:9-54
-	android:roundIcon
 		ADDED from C:\Users\Lenovo\Desktop\BANGKIT\Capstone\CattleDiag\Mobile Development\CattleDiag\app\src\main\AndroidManifest.xml:11:9-54
+	android:roundIcon
+		ADDED from C:\Users\Lenovo\Desktop\BANGKIT\Capstone\CattleDiag\Mobile Development\CattleDiag\app\src\main\AndroidManifest.xml:14:9-54
 	tools:targetApi
-		ADDED from C:\Users\Lenovo\Desktop\BANGKIT\Capstone\CattleDiag\Mobile Development\CattleDiag\app\src\main\AndroidManifest.xml:14:9-29
+		ADDED from C:\Users\Lenovo\Desktop\BANGKIT\Capstone\CattleDiag\Mobile Development\CattleDiag\app\src\main\AndroidManifest.xml:17:9-29
 	android:icon
-		ADDED from C:\Users\Lenovo\Desktop\BANGKIT\Capstone\CattleDiag\Mobile Development\CattleDiag\app\src\main\AndroidManifest.xml:9:9-43
+		ADDED from C:\Users\Lenovo\Desktop\BANGKIT\Capstone\CattleDiag\Mobile Development\CattleDiag\app\src\main\AndroidManifest.xml:12:9-43
 	android:allowBackup
-		ADDED from C:\Users\Lenovo\Desktop\BANGKIT\Capstone\CattleDiag\Mobile Development\CattleDiag\app\src\main\AndroidManifest.xml:6:9-35
+		ADDED from C:\Users\Lenovo\Desktop\BANGKIT\Capstone\CattleDiag\Mobile Development\CattleDiag\app\src\main\AndroidManifest.xml:8:9-35
 	android:theme
-		ADDED from C:\Users\Lenovo\Desktop\BANGKIT\Capstone\CattleDiag\Mobile Development\CattleDiag\app\src\main\AndroidManifest.xml:13:9-48
+		ADDED from C:\Users\Lenovo\Desktop\BANGKIT\Capstone\CattleDiag\Mobile Development\CattleDiag\app\src\main\AndroidManifest.xml:16:9-48
 	android:dataExtractionRules
-		ADDED from C:\Users\Lenovo\Desktop\BANGKIT\Capstone\CattleDiag\Mobile Development\CattleDiag\app\src\main\AndroidManifest.xml:7:9-65
+		ADDED from C:\Users\Lenovo\Desktop\BANGKIT\Capstone\CattleDiag\Mobile Development\CattleDiag\app\src\main\AndroidManifest.xml:10:9-65
+	android:usesCleartextTraffic
+		ADDED from C:\Users\Lenovo\Desktop\BANGKIT\Capstone\CattleDiag\Mobile Development\CattleDiag\app\src\main\AndroidManifest.xml:9:9-44
 activity#com.example.cattlediag.presentation.identify.IdentifyActivity
-ADDED from C:\Users\Lenovo\Desktop\BANGKIT\Capstone\CattleDiag\Mobile Development\CattleDiag\app\src\main\AndroidManifest.xml:15:9-17:40
-	android:exported
-		ADDED from C:\Users\Lenovo\Desktop\BANGKIT\Capstone\CattleDiag\Mobile Development\CattleDiag\app\src\main\AndroidManifest.xml:17:13-37
-	android:name
-		ADDED from C:\Users\Lenovo\Desktop\BANGKIT\Capstone\CattleDiag\Mobile Development\CattleDiag\app\src\main\AndroidManifest.xml:16:13-67
-activity#com.example.cattlediag.presentation.main.MainActivity
 ADDED from C:\Users\Lenovo\Desktop\BANGKIT\Capstone\CattleDiag\Mobile Development\CattleDiag\app\src\main\AndroidManifest.xml:18:9-20:40
 	android:exported
 		ADDED from C:\Users\Lenovo\Desktop\BANGKIT\Capstone\CattleDiag\Mobile Development\CattleDiag\app\src\main\AndroidManifest.xml:20:13-37
 	android:name
-		ADDED from C:\Users\Lenovo\Desktop\BANGKIT\Capstone\CattleDiag\Mobile Development\CattleDiag\app\src\main\AndroidManifest.xml:19:13-59
-activity#com.example.cattlediag.presentation.result.ResultActivity
+		ADDED from C:\Users\Lenovo\Desktop\BANGKIT\Capstone\CattleDiag\Mobile Development\CattleDiag\app\src\main\AndroidManifest.xml:19:13-67
+activity#com.example.cattlediag.presentation.main.MainActivity
 ADDED from C:\Users\Lenovo\Desktop\BANGKIT\Capstone\CattleDiag\Mobile Development\CattleDiag\app\src\main\AndroidManifest.xml:21:9-23:40
 	android:exported
 		ADDED from C:\Users\Lenovo\Desktop\BANGKIT\Capstone\CattleDiag\Mobile Development\CattleDiag\app\src\main\AndroidManifest.xml:23:13-37
 	android:name
-		ADDED from C:\Users\Lenovo\Desktop\BANGKIT\Capstone\CattleDiag\Mobile Development\CattleDiag\app\src\main\AndroidManifest.xml:22:13-63
-activity#com.example.cattlediag.presentation.splash.SplashActivity
-ADDED from C:\Users\Lenovo\Desktop\BANGKIT\Capstone\CattleDiag\Mobile Development\CattleDiag\app\src\main\AndroidManifest.xml:24:9-32:20
+		ADDED from C:\Users\Lenovo\Desktop\BANGKIT\Capstone\CattleDiag\Mobile Development\CattleDiag\app\src\main\AndroidManifest.xml:22:13-59
+activity#com.example.cattlediag.presentation.result.ResultActivity
+ADDED from C:\Users\Lenovo\Desktop\BANGKIT\Capstone\CattleDiag\Mobile Development\CattleDiag\app\src\main\AndroidManifest.xml:24:9-26:40
 	android:exported
-		ADDED from C:\Users\Lenovo\Desktop\BANGKIT\Capstone\CattleDiag\Mobile Development\CattleDiag\app\src\main\AndroidManifest.xml:26:13-36
+		ADDED from C:\Users\Lenovo\Desktop\BANGKIT\Capstone\CattleDiag\Mobile Development\CattleDiag\app\src\main\AndroidManifest.xml:26:13-37
 	android:name
 		ADDED from C:\Users\Lenovo\Desktop\BANGKIT\Capstone\CattleDiag\Mobile Development\CattleDiag\app\src\main\AndroidManifest.xml:25:13-63
+activity#com.example.cattlediag.presentation.splash.SplashActivity
+ADDED from C:\Users\Lenovo\Desktop\BANGKIT\Capstone\CattleDiag\Mobile Development\CattleDiag\app\src\main\AndroidManifest.xml:27:9-35:20
+	android:exported
+		ADDED from C:\Users\Lenovo\Desktop\BANGKIT\Capstone\CattleDiag\Mobile Development\CattleDiag\app\src\main\AndroidManifest.xml:29:13-36
+	android:name
+		ADDED from C:\Users\Lenovo\Desktop\BANGKIT\Capstone\CattleDiag\Mobile Development\CattleDiag\app\src\main\AndroidManifest.xml:28:13-63
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\Lenovo\Desktop\BANGKIT\Capstone\CattleDiag\Mobile Development\CattleDiag\app\src\main\AndroidManifest.xml:27:13-31:29
+ADDED from C:\Users\Lenovo\Desktop\BANGKIT\Capstone\CattleDiag\Mobile Development\CattleDiag\app\src\main\AndroidManifest.xml:30:13-34:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\Lenovo\Desktop\BANGKIT\Capstone\CattleDiag\Mobile Development\CattleDiag\app\src\main\AndroidManifest.xml:28:17-69
+ADDED from C:\Users\Lenovo\Desktop\BANGKIT\Capstone\CattleDiag\Mobile Development\CattleDiag\app\src\main\AndroidManifest.xml:31:17-69
 	android:name
-		ADDED from C:\Users\Lenovo\Desktop\BANGKIT\Capstone\CattleDiag\Mobile Development\CattleDiag\app\src\main\AndroidManifest.xml:28:25-66
+		ADDED from C:\Users\Lenovo\Desktop\BANGKIT\Capstone\CattleDiag\Mobile Development\CattleDiag\app\src\main\AndroidManifest.xml:31:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Lenovo\Desktop\BANGKIT\Capstone\CattleDiag\Mobile Development\CattleDiag\app\src\main\AndroidManifest.xml:30:17-77
+ADDED from C:\Users\Lenovo\Desktop\BANGKIT\Capstone\CattleDiag\Mobile Development\CattleDiag\app\src\main\AndroidManifest.xml:33:17-77
 	android:name
-		ADDED from C:\Users\Lenovo\Desktop\BANGKIT\Capstone\CattleDiag\Mobile Development\CattleDiag\app\src\main\AndroidManifest.xml:30:27-74
+		ADDED from C:\Users\Lenovo\Desktop\BANGKIT\Capstone\CattleDiag\Mobile Development\CattleDiag\app\src\main\AndroidManifest.xml:33:27-74
 uses-sdk
 INJECTED from C:\Users\Lenovo\Desktop\BANGKIT\Capstone\CattleDiag\Mobile Development\CattleDiag\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\Lenovo\Desktop\BANGKIT\Capstone\CattleDiag\Mobile Development\CattleDiag\app\src\main\AndroidManifest.xml

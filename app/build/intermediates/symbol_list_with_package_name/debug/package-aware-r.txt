@@ -3049,6 +3049,8 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable ranch1
+drawable ranch2
 drawable test_level_drawable
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
@@ -3277,6 +3279,7 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
+id img_result
 id immediateStop
 id included
 id indeterminate
@@ -3285,7 +3288,6 @@ id invisible
 id inward
 id italic
 id item_touch_helper_previous_elevation
-id iv_result
 id jumpToEnd
 id jumpToStart
 id labeled
@@ -3411,6 +3413,7 @@ id pin
 id position
 id postLayout
 id pressed
+id progress_bar
 id progress_circular
 id progress_horizontal
 id radio
@@ -3535,7 +3538,9 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id triangle
-id tv_result
+id tv_result_desc
+id tv_result_preventation
+id tv_result_treatment
 id unchecked
 id uniform
 id unlabeled
@@ -5191,3 +5196,4 @@ styleable ViewTransition android_id SharedValue SharedValueId clearsTag duration
 styleable include constraintSet
 xml backup_rules
 xml data_extraction_rules
+xml network_security_config

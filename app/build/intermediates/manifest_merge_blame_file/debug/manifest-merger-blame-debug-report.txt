@@ -8,150 +8,156 @@
 8        android:minSdkVersion="27"
 9        android:targetSdkVersion="34" />
 10
-11    <permission
-11-->[androidx.core:core:1.9.0] C:\Users\Lenovo\.gradle\caches\transforms-3\738147d0f85917708540e295877f94a3\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
-12        android:name="com.example.cattlediag.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-12-->[androidx.core:core:1.9.0] C:\Users\Lenovo\.gradle\caches\transforms-3\738147d0f85917708540e295877f94a3\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
-13        android:protectionLevel="signature" />
-13-->[androidx.core:core:1.9.0] C:\Users\Lenovo\.gradle\caches\transforms-3\738147d0f85917708540e295877f94a3\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
-14
-15    <uses-permission android:name="com.example.cattlediag.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
-15-->[androidx.core:core:1.9.0] C:\Users\Lenovo\.gradle\caches\transforms-3\738147d0f85917708540e295877f94a3\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
-15-->[androidx.core:core:1.9.0] C:\Users\Lenovo\.gradle\caches\transforms-3\738147d0f85917708540e295877f94a3\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\Lenovo\Desktop\BANGKIT\Capstone\CattleDiag\Mobile Development\CattleDiag\app\src\main\AndroidManifest.xml:5:5-67
+11-->C:\Users\Lenovo\Desktop\BANGKIT\Capstone\CattleDiag\Mobile Development\CattleDiag\app\src\main\AndroidManifest.xml:5:22-64
+12
+13    <permission
+13-->[androidx.core:core:1.9.0] C:\Users\Lenovo\.gradle\caches\transforms-3\738147d0f85917708540e295877f94a3\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+14        android:name="com.example.cattlediag.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+14-->[androidx.core:core:1.9.0] C:\Users\Lenovo\.gradle\caches\transforms-3\738147d0f85917708540e295877f94a3\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+15        android:protectionLevel="signature" />
+15-->[androidx.core:core:1.9.0] C:\Users\Lenovo\.gradle\caches\transforms-3\738147d0f85917708540e295877f94a3\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
 16
-17    <application
-17-->C:\Users\Lenovo\Desktop\BANGKIT\Capstone\CattleDiag\Mobile Development\CattleDiag\app\src\main\AndroidManifest.xml:5:5-33:19
-18        android:allowBackup="true"
-18-->C:\Users\Lenovo\Desktop\BANGKIT\Capstone\CattleDiag\Mobile Development\CattleDiag\app\src\main\AndroidManifest.xml:6:9-35
-19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-19-->[androidx.core:core:1.9.0] C:\Users\Lenovo\.gradle\caches\transforms-3\738147d0f85917708540e295877f94a3\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
-20        android:dataExtractionRules="@xml/data_extraction_rules"
-20-->C:\Users\Lenovo\Desktop\BANGKIT\Capstone\CattleDiag\Mobile Development\CattleDiag\app\src\main\AndroidManifest.xml:7:9-65
-21        android:debuggable="true"
-22        android:extractNativeLibs="false"
-23        android:fullBackupContent="@xml/backup_rules"
-23-->C:\Users\Lenovo\Desktop\BANGKIT\Capstone\CattleDiag\Mobile Development\CattleDiag\app\src\main\AndroidManifest.xml:8:9-54
-24        android:icon="@mipmap/ic_launcher"
-24-->C:\Users\Lenovo\Desktop\BANGKIT\Capstone\CattleDiag\Mobile Development\CattleDiag\app\src\main\AndroidManifest.xml:9:9-43
-25        android:label="@string/app_name"
-25-->C:\Users\Lenovo\Desktop\BANGKIT\Capstone\CattleDiag\Mobile Development\CattleDiag\app\src\main\AndroidManifest.xml:10:9-41
-26        android:roundIcon="@mipmap/ic_launcher_round"
-26-->C:\Users\Lenovo\Desktop\BANGKIT\Capstone\CattleDiag\Mobile Development\CattleDiag\app\src\main\AndroidManifest.xml:11:9-54
-27        android:supportsRtl="true"
-27-->C:\Users\Lenovo\Desktop\BANGKIT\Capstone\CattleDiag\Mobile Development\CattleDiag\app\src\main\AndroidManifest.xml:12:9-35
-28        android:testOnly="true"
-29        android:theme="@style/Theme.CattleDiag" >
-29-->C:\Users\Lenovo\Desktop\BANGKIT\Capstone\CattleDiag\Mobile Development\CattleDiag\app\src\main\AndroidManifest.xml:13:9-48
-30        <activity
-30-->C:\Users\Lenovo\Desktop\BANGKIT\Capstone\CattleDiag\Mobile Development\CattleDiag\app\src\main\AndroidManifest.xml:15:9-17:40
-31            android:name="com.example.cattlediag.presentation.identify.IdentifyActivity"
-31-->C:\Users\Lenovo\Desktop\BANGKIT\Capstone\CattleDiag\Mobile Development\CattleDiag\app\src\main\AndroidManifest.xml:16:13-67
-32            android:exported="false" />
-32-->C:\Users\Lenovo\Desktop\BANGKIT\Capstone\CattleDiag\Mobile Development\CattleDiag\app\src\main\AndroidManifest.xml:17:13-37
+17    <uses-permission android:name="com.example.cattlediag.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+17-->[androidx.core:core:1.9.0] C:\Users\Lenovo\.gradle\caches\transforms-3\738147d0f85917708540e295877f94a3\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+17-->[androidx.core:core:1.9.0] C:\Users\Lenovo\.gradle\caches\transforms-3\738147d0f85917708540e295877f94a3\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+18
+19    <application
+19-->C:\Users\Lenovo\Desktop\BANGKIT\Capstone\CattleDiag\Mobile Development\CattleDiag\app\src\main\AndroidManifest.xml:7:5-36:19
+20        android:allowBackup="true"
+20-->C:\Users\Lenovo\Desktop\BANGKIT\Capstone\CattleDiag\Mobile Development\CattleDiag\app\src\main\AndroidManifest.xml:8:9-35
+21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+21-->[androidx.core:core:1.9.0] C:\Users\Lenovo\.gradle\caches\transforms-3\738147d0f85917708540e295877f94a3\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+22        android:dataExtractionRules="@xml/data_extraction_rules"
+22-->C:\Users\Lenovo\Desktop\BANGKIT\Capstone\CattleDiag\Mobile Development\CattleDiag\app\src\main\AndroidManifest.xml:10:9-65
+23        android:debuggable="true"
+24        android:extractNativeLibs="false"
+25        android:fullBackupContent="@xml/backup_rules"
+25-->C:\Users\Lenovo\Desktop\BANGKIT\Capstone\CattleDiag\Mobile Development\CattleDiag\app\src\main\AndroidManifest.xml:11:9-54
+26        android:icon="@mipmap/ic_launcher"
+26-->C:\Users\Lenovo\Desktop\BANGKIT\Capstone\CattleDiag\Mobile Development\CattleDiag\app\src\main\AndroidManifest.xml:12:9-43
+27        android:label="@string/app_name"
+27-->C:\Users\Lenovo\Desktop\BANGKIT\Capstone\CattleDiag\Mobile Development\CattleDiag\app\src\main\AndroidManifest.xml:13:9-41
+28        android:roundIcon="@mipmap/ic_launcher_round"
+28-->C:\Users\Lenovo\Desktop\BANGKIT\Capstone\CattleDiag\Mobile Development\CattleDiag\app\src\main\AndroidManifest.xml:14:9-54
+29        android:supportsRtl="true"
+29-->C:\Users\Lenovo\Desktop\BANGKIT\Capstone\CattleDiag\Mobile Development\CattleDiag\app\src\main\AndroidManifest.xml:15:9-35
+30        android:testOnly="true"
+31        android:theme="@style/Theme.CattleDiag"
+31-->C:\Users\Lenovo\Desktop\BANGKIT\Capstone\CattleDiag\Mobile Development\CattleDiag\app\src\main\AndroidManifest.xml:16:9-48
+32        android:usesCleartextTraffic="true" >
+32-->C:\Users\Lenovo\Desktop\BANGKIT\Capstone\CattleDiag\Mobile Development\CattleDiag\app\src\main\AndroidManifest.xml:9:9-44
 33        <activity
 33-->C:\Users\Lenovo\Desktop\BANGKIT\Capstone\CattleDiag\Mobile Development\CattleDiag\app\src\main\AndroidManifest.xml:18:9-20:40
-34            android:name="com.example.cattlediag.presentation.main.MainActivity"
-34-->C:\Users\Lenovo\Desktop\BANGKIT\Capstone\CattleDiag\Mobile Development\CattleDiag\app\src\main\AndroidManifest.xml:19:13-59
+34            android:name="com.example.cattlediag.presentation.identify.IdentifyActivity"
+34-->C:\Users\Lenovo\Desktop\BANGKIT\Capstone\CattleDiag\Mobile Development\CattleDiag\app\src\main\AndroidManifest.xml:19:13-67
 35            android:exported="false" />
 35-->C:\Users\Lenovo\Desktop\BANGKIT\Capstone\CattleDiag\Mobile Development\CattleDiag\app\src\main\AndroidManifest.xml:20:13-37
 36        <activity
 36-->C:\Users\Lenovo\Desktop\BANGKIT\Capstone\CattleDiag\Mobile Development\CattleDiag\app\src\main\AndroidManifest.xml:21:9-23:40
-37            android:name="com.example.cattlediag.presentation.result.ResultActivity"
-37-->C:\Users\Lenovo\Desktop\BANGKIT\Capstone\CattleDiag\Mobile Development\CattleDiag\app\src\main\AndroidManifest.xml:22:13-63
+37            android:name="com.example.cattlediag.presentation.main.MainActivity"
+37-->C:\Users\Lenovo\Desktop\BANGKIT\Capstone\CattleDiag\Mobile Development\CattleDiag\app\src\main\AndroidManifest.xml:22:13-59
 38            android:exported="false" />
 38-->C:\Users\Lenovo\Desktop\BANGKIT\Capstone\CattleDiag\Mobile Development\CattleDiag\app\src\main\AndroidManifest.xml:23:13-37
 39        <activity
-39-->C:\Users\Lenovo\Desktop\BANGKIT\Capstone\CattleDiag\Mobile Development\CattleDiag\app\src\main\AndroidManifest.xml:24:9-32:20
-40            android:name="com.example.cattlediag.presentation.splash.SplashActivity"
+39-->C:\Users\Lenovo\Desktop\BANGKIT\Capstone\CattleDiag\Mobile Development\CattleDiag\app\src\main\AndroidManifest.xml:24:9-26:40
+40            android:name="com.example.cattlediag.presentation.result.ResultActivity"
 40-->C:\Users\Lenovo\Desktop\BANGKIT\Capstone\CattleDiag\Mobile Development\CattleDiag\app\src\main\AndroidManifest.xml:25:13-63
-41            android:exported="true" >
-41-->C:\Users\Lenovo\Desktop\BANGKIT\Capstone\CattleDiag\Mobile Development\CattleDiag\app\src\main\AndroidManifest.xml:26:13-36
-42            <intent-filter>
-42-->C:\Users\Lenovo\Desktop\BANGKIT\Capstone\CattleDiag\Mobile Development\CattleDiag\app\src\main\AndroidManifest.xml:27:13-31:29
-43                <action android:name="android.intent.action.MAIN" />
-43-->C:\Users\Lenovo\Desktop\BANGKIT\Capstone\CattleDiag\Mobile Development\CattleDiag\app\src\main\AndroidManifest.xml:28:17-69
-43-->C:\Users\Lenovo\Desktop\BANGKIT\Capstone\CattleDiag\Mobile Development\CattleDiag\app\src\main\AndroidManifest.xml:28:25-66
-44
-45                <category android:name="android.intent.category.LAUNCHER" />
-45-->C:\Users\Lenovo\Desktop\BANGKIT\Capstone\CattleDiag\Mobile Development\CattleDiag\app\src\main\AndroidManifest.xml:30:17-77
-45-->C:\Users\Lenovo\Desktop\BANGKIT\Capstone\CattleDiag\Mobile Development\CattleDiag\app\src\main\AndroidManifest.xml:30:27-74
-46            </intent-filter>
-47        </activity>
-48
-49        <service
-49-->[androidx.room:room-runtime:2.5.2] C:\Users\Lenovo\.gradle\caches\transforms-3\b00b9080dddda6e3abf21516dc121659\transformed\room-runtime-2.5.2\AndroidManifest.xml:24:9-28:63
-50            android:name="androidx.room.MultiInstanceInvalidationService"
-50-->[androidx.room:room-runtime:2.5.2] C:\Users\Lenovo\.gradle\caches\transforms-3\b00b9080dddda6e3abf21516dc121659\transformed\room-runtime-2.5.2\AndroidManifest.xml:25:13-74
-51            android:directBootAware="true"
-51-->[androidx.room:room-runtime:2.5.2] C:\Users\Lenovo\.gradle\caches\transforms-3\b00b9080dddda6e3abf21516dc121659\transformed\room-runtime-2.5.2\AndroidManifest.xml:26:13-43
-52            android:exported="false" />
-52-->[androidx.room:room-runtime:2.5.2] C:\Users\Lenovo\.gradle\caches\transforms-3\b00b9080dddda6e3abf21516dc121659\transformed\room-runtime-2.5.2\AndroidManifest.xml:27:13-37
-53
-54        <provider
-54-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Lenovo\.gradle\caches\transforms-3\3ffd57255e6f9966dfb3d4f8b250b487\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
-55            android:name="androidx.startup.InitializationProvider"
-55-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Lenovo\.gradle\caches\transforms-3\3ffd57255e6f9966dfb3d4f8b250b487\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
-56            android:authorities="com.example.cattlediag.androidx-startup"
-56-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Lenovo\.gradle\caches\transforms-3\3ffd57255e6f9966dfb3d4f8b250b487\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
-57            android:exported="false" >
-57-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Lenovo\.gradle\caches\transforms-3\3ffd57255e6f9966dfb3d4f8b250b487\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
-58            <meta-data
-58-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Lenovo\.gradle\caches\transforms-3\3ffd57255e6f9966dfb3d4f8b250b487\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
-59                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-59-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Lenovo\.gradle\caches\transforms-3\3ffd57255e6f9966dfb3d4f8b250b487\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
-60                android:value="androidx.startup" />
-60-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Lenovo\.gradle\caches\transforms-3\3ffd57255e6f9966dfb3d4f8b250b487\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+41            android:exported="false" />
+41-->C:\Users\Lenovo\Desktop\BANGKIT\Capstone\CattleDiag\Mobile Development\CattleDiag\app\src\main\AndroidManifest.xml:26:13-37
+42        <activity
+42-->C:\Users\Lenovo\Desktop\BANGKIT\Capstone\CattleDiag\Mobile Development\CattleDiag\app\src\main\AndroidManifest.xml:27:9-35:20
+43            android:name="com.example.cattlediag.presentation.splash.SplashActivity"
+43-->C:\Users\Lenovo\Desktop\BANGKIT\Capstone\CattleDiag\Mobile Development\CattleDiag\app\src\main\AndroidManifest.xml:28:13-63
+44            android:exported="true" >
+44-->C:\Users\Lenovo\Desktop\BANGKIT\Capstone\CattleDiag\Mobile Development\CattleDiag\app\src\main\AndroidManifest.xml:29:13-36
+45            <intent-filter>
+45-->C:\Users\Lenovo\Desktop\BANGKIT\Capstone\CattleDiag\Mobile Development\CattleDiag\app\src\main\AndroidManifest.xml:30:13-34:29
+46                <action android:name="android.intent.action.MAIN" />
+46-->C:\Users\Lenovo\Desktop\BANGKIT\Capstone\CattleDiag\Mobile Development\CattleDiag\app\src\main\AndroidManifest.xml:31:17-69
+46-->C:\Users\Lenovo\Desktop\BANGKIT\Capstone\CattleDiag\Mobile Development\CattleDiag\app\src\main\AndroidManifest.xml:31:25-66
+47
+48                <category android:name="android.intent.category.LAUNCHER" />
+48-->C:\Users\Lenovo\Desktop\BANGKIT\Capstone\CattleDiag\Mobile Development\CattleDiag\app\src\main\AndroidManifest.xml:33:17-77
+48-->C:\Users\Lenovo\Desktop\BANGKIT\Capstone\CattleDiag\Mobile Development\CattleDiag\app\src\main\AndroidManifest.xml:33:27-74
+49            </intent-filter>
+50        </activity>
+51
+52        <service
+52-->[androidx.room:room-runtime:2.5.2] C:\Users\Lenovo\.gradle\caches\transforms-3\b00b9080dddda6e3abf21516dc121659\transformed\room-runtime-2.5.2\AndroidManifest.xml:24:9-28:63
+53            android:name="androidx.room.MultiInstanceInvalidationService"
+53-->[androidx.room:room-runtime:2.5.2] C:\Users\Lenovo\.gradle\caches\transforms-3\b00b9080dddda6e3abf21516dc121659\transformed\room-runtime-2.5.2\AndroidManifest.xml:25:13-74
+54            android:directBootAware="true"
+54-->[androidx.room:room-runtime:2.5.2] C:\Users\Lenovo\.gradle\caches\transforms-3\b00b9080dddda6e3abf21516dc121659\transformed\room-runtime-2.5.2\AndroidManifest.xml:26:13-43
+55            android:exported="false" />
+55-->[androidx.room:room-runtime:2.5.2] C:\Users\Lenovo\.gradle\caches\transforms-3\b00b9080dddda6e3abf21516dc121659\transformed\room-runtime-2.5.2\AndroidManifest.xml:27:13-37
+56
+57        <provider
+57-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Lenovo\.gradle\caches\transforms-3\3ffd57255e6f9966dfb3d4f8b250b487\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+58            android:name="androidx.startup.InitializationProvider"
+58-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Lenovo\.gradle\caches\transforms-3\3ffd57255e6f9966dfb3d4f8b250b487\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+59            android:authorities="com.example.cattlediag.androidx-startup"
+59-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Lenovo\.gradle\caches\transforms-3\3ffd57255e6f9966dfb3d4f8b250b487\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+60            android:exported="false" >
+60-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Lenovo\.gradle\caches\transforms-3\3ffd57255e6f9966dfb3d4f8b250b487\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
 61            <meta-data
-61-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Lenovo\.gradle\caches\transforms-3\f79b82b494d29be3194688f69da6b2fa\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
-62                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-62-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Lenovo\.gradle\caches\transforms-3\f79b82b494d29be3194688f69da6b2fa\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
+61-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Lenovo\.gradle\caches\transforms-3\3ffd57255e6f9966dfb3d4f8b250b487\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+62                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+62-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Lenovo\.gradle\caches\transforms-3\3ffd57255e6f9966dfb3d4f8b250b487\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
 63                android:value="androidx.startup" />
-63-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Lenovo\.gradle\caches\transforms-3\f79b82b494d29be3194688f69da6b2fa\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
+63-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Lenovo\.gradle\caches\transforms-3\3ffd57255e6f9966dfb3d4f8b250b487\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
 64            <meta-data
-64-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Lenovo\.gradle\caches\transforms-3\77d5a7dd47204633d73b86e2eac15830\transformed\profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
-65                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
-65-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Lenovo\.gradle\caches\transforms-3\77d5a7dd47204633d73b86e2eac15830\transformed\profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+64-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Lenovo\.gradle\caches\transforms-3\f79b82b494d29be3194688f69da6b2fa\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
+65                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+65-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Lenovo\.gradle\caches\transforms-3\f79b82b494d29be3194688f69da6b2fa\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
 66                android:value="androidx.startup" />
-66-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Lenovo\.gradle\caches\transforms-3\77d5a7dd47204633d73b86e2eac15830\transformed\profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
-67        </provider>
-68
-69        <receiver
-69-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Lenovo\.gradle\caches\transforms-3\77d5a7dd47204633d73b86e2eac15830\transformed\profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
-70            android:name="androidx.profileinstaller.ProfileInstallReceiver"
-70-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Lenovo\.gradle\caches\transforms-3\77d5a7dd47204633d73b86e2eac15830\transformed\profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
-71            android:directBootAware="false"
-71-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Lenovo\.gradle\caches\transforms-3\77d5a7dd47204633d73b86e2eac15830\transformed\profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
-72            android:enabled="true"
-72-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Lenovo\.gradle\caches\transforms-3\77d5a7dd47204633d73b86e2eac15830\transformed\profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
-73            android:exported="true"
-73-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Lenovo\.gradle\caches\transforms-3\77d5a7dd47204633d73b86e2eac15830\transformed\profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
-74            android:permission="android.permission.DUMP" >
-74-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Lenovo\.gradle\caches\transforms-3\77d5a7dd47204633d73b86e2eac15830\transformed\profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
-75            <intent-filter>
-75-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Lenovo\.gradle\caches\transforms-3\77d5a7dd47204633d73b86e2eac15830\transformed\profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
-76                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
-76-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Lenovo\.gradle\caches\transforms-3\77d5a7dd47204633d73b86e2eac15830\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
-76-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Lenovo\.gradle\caches\transforms-3\77d5a7dd47204633d73b86e2eac15830\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
-77            </intent-filter>
+66-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Lenovo\.gradle\caches\transforms-3\f79b82b494d29be3194688f69da6b2fa\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
+67            <meta-data
+67-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Lenovo\.gradle\caches\transforms-3\77d5a7dd47204633d73b86e2eac15830\transformed\profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+68                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+68-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Lenovo\.gradle\caches\transforms-3\77d5a7dd47204633d73b86e2eac15830\transformed\profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+69                android:value="androidx.startup" />
+69-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Lenovo\.gradle\caches\transforms-3\77d5a7dd47204633d73b86e2eac15830\transformed\profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+70        </provider>
+71
+72        <receiver
+72-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Lenovo\.gradle\caches\transforms-3\77d5a7dd47204633d73b86e2eac15830\transformed\profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+73            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+73-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Lenovo\.gradle\caches\transforms-3\77d5a7dd47204633d73b86e2eac15830\transformed\profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+74            android:directBootAware="false"
+74-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Lenovo\.gradle\caches\transforms-3\77d5a7dd47204633d73b86e2eac15830\transformed\profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+75            android:enabled="true"
+75-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Lenovo\.gradle\caches\transforms-3\77d5a7dd47204633d73b86e2eac15830\transformed\profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+76            android:exported="true"
+76-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Lenovo\.gradle\caches\transforms-3\77d5a7dd47204633d73b86e2eac15830\transformed\profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+77            android:permission="android.permission.DUMP" >
+77-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Lenovo\.gradle\caches\transforms-3\77d5a7dd47204633d73b86e2eac15830\transformed\profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
 78            <intent-filter>
-78-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Lenovo\.gradle\caches\transforms-3\77d5a7dd47204633d73b86e2eac15830\transformed\profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
-79                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
-79-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Lenovo\.gradle\caches\transforms-3\77d5a7dd47204633d73b86e2eac15830\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
-79-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Lenovo\.gradle\caches\transforms-3\77d5a7dd47204633d73b86e2eac15830\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+78-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Lenovo\.gradle\caches\transforms-3\77d5a7dd47204633d73b86e2eac15830\transformed\profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+79                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+79-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Lenovo\.gradle\caches\transforms-3\77d5a7dd47204633d73b86e2eac15830\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+79-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Lenovo\.gradle\caches\transforms-3\77d5a7dd47204633d73b86e2eac15830\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
 80            </intent-filter>
 81            <intent-filter>
-81-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Lenovo\.gradle\caches\transforms-3\77d5a7dd47204633d73b86e2eac15830\transformed\profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
-82                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
-82-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Lenovo\.gradle\caches\transforms-3\77d5a7dd47204633d73b86e2eac15830\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
-82-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Lenovo\.gradle\caches\transforms-3\77d5a7dd47204633d73b86e2eac15830\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+81-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Lenovo\.gradle\caches\transforms-3\77d5a7dd47204633d73b86e2eac15830\transformed\profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+82                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+82-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Lenovo\.gradle\caches\transforms-3\77d5a7dd47204633d73b86e2eac15830\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+82-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Lenovo\.gradle\caches\transforms-3\77d5a7dd47204633d73b86e2eac15830\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
 83            </intent-filter>
 84            <intent-filter>
-84-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Lenovo\.gradle\caches\transforms-3\77d5a7dd47204633d73b86e2eac15830\transformed\profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
-85                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
-85-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Lenovo\.gradle\caches\transforms-3\77d5a7dd47204633d73b86e2eac15830\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
-85-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Lenovo\.gradle\caches\transforms-3\77d5a7dd47204633d73b86e2eac15830\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+84-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Lenovo\.gradle\caches\transforms-3\77d5a7dd47204633d73b86e2eac15830\transformed\profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+85                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+85-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Lenovo\.gradle\caches\transforms-3\77d5a7dd47204633d73b86e2eac15830\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+85-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Lenovo\.gradle\caches\transforms-3\77d5a7dd47204633d73b86e2eac15830\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
 86            </intent-filter>
-87        </receiver>
-88    </application>
-89
-90</manifest>
+87            <intent-filter>
+87-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Lenovo\.gradle\caches\transforms-3\77d5a7dd47204633d73b86e2eac15830\transformed\profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+88                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+88-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Lenovo\.gradle\caches\transforms-3\77d5a7dd47204633d73b86e2eac15830\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+88-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Lenovo\.gradle\caches\transforms-3\77d5a7dd47204633d73b86e2eac15830\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+89            </intent-filter>
+90        </receiver>
+91    </application>
+92
+93</manifest>

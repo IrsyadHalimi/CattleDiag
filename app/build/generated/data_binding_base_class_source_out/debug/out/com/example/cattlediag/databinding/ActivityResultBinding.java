@@ -5,7 +5,6 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
-import android.widget.ImageView;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -13,6 +12,7 @@ import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.example.cattlediag.R;
+import de.hdodenhof.circleimageview.CircleImageView;
 import java.lang.NullPointerException;
 import java.lang.Override;
 import java.lang.String;
@@ -25,21 +25,30 @@ public final class ActivityResultBinding implements ViewBinding {
   public final Button btnResult;
 
   @NonNull
-  public final ImageView ivResult;
+  public final CircleImageView imgResult;
 
   @NonNull
   public final TextView result;
 
   @NonNull
-  public final TextView tvResult;
+  public final TextView tvResultDesc;
+
+  @NonNull
+  public final TextView tvResultPreventation;
+
+  @NonNull
+  public final TextView tvResultTreatment;
 
   private ActivityResultBinding(@NonNull ConstraintLayout rootView, @NonNull Button btnResult,
-      @NonNull ImageView ivResult, @NonNull TextView result, @NonNull TextView tvResult) {
+      @NonNull CircleImageView imgResult, @NonNull TextView result, @NonNull TextView tvResultDesc,
+      @NonNull TextView tvResultPreventation, @NonNull TextView tvResultTreatment) {
     this.rootView = rootView;
     this.btnResult = btnResult;
-    this.ivResult = ivResult;
+    this.imgResult = imgResult;
     this.result = result;
-    this.tvResult = tvResult;
+    this.tvResultDesc = tvResultDesc;
+    this.tvResultPreventation = tvResultPreventation;
+    this.tvResultTreatment = tvResultTreatment;
   }
 
   @Override
@@ -75,9 +84,9 @@ public final class ActivityResultBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.iv_result;
-      ImageView ivResult = ViewBindings.findChildViewById(rootView, id);
-      if (ivResult == null) {
+      id = R.id.img_result;
+      CircleImageView imgResult = ViewBindings.findChildViewById(rootView, id);
+      if (imgResult == null) {
         break missingId;
       }
 
@@ -87,14 +96,26 @@ public final class ActivityResultBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.tv_result;
-      TextView tvResult = ViewBindings.findChildViewById(rootView, id);
-      if (tvResult == null) {
+      id = R.id.tv_result_desc;
+      TextView tvResultDesc = ViewBindings.findChildViewById(rootView, id);
+      if (tvResultDesc == null) {
         break missingId;
       }
 
-      return new ActivityResultBinding((ConstraintLayout) rootView, btnResult, ivResult, result,
-          tvResult);
+      id = R.id.tv_result_preventation;
+      TextView tvResultPreventation = ViewBindings.findChildViewById(rootView, id);
+      if (tvResultPreventation == null) {
+        break missingId;
+      }
+
+      id = R.id.tv_result_treatment;
+      TextView tvResultTreatment = ViewBindings.findChildViewById(rootView, id);
+      if (tvResultTreatment == null) {
+        break missingId;
+      }
+
+      return new ActivityResultBinding((ConstraintLayout) rootView, btnResult, imgResult, result,
+          tvResultDesc, tvResultPreventation, tvResultTreatment);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

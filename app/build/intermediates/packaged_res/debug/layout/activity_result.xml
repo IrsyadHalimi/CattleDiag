@@ -20,26 +20,55 @@
         android:textStyle="bold"
         android:textSize="30sp"/>
 
-    <ImageView
-        android:id="@+id/iv_result"
-        android:layout_width="300dp"
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/img_result"
+        android:layout_width="200dp"
         android:layout_height="200dp"
-        android:layout_marginTop="20dp"
         app:layout_constraintTop_toBottomOf="@+id/result"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"/>
+        app:layout_constraintStart_toStartOf="parent"
+        android:src="@drawable/ic_launcher_background"
+        android:layout_marginTop="20dp"/>
 
     <TextView
-        android:id="@+id/tv_result"
+        android:id="@+id/tv_result_desc"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="text"
-        app:layout_constraintTop_toBottomOf="@+id/iv_result"
+        android:text="desc"
+        app:layout_constraintTop_toBottomOf="@+id/img_result"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="30dp"
         android:layout_marginStart="10dp"
+        android:textSize="10sp"
         android:layout_marginEnd="10dp"/>
+
+    <TextView
+        android:id="@+id/tv_result_treatment"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/tv_result_desc"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:textSize="10sp"
+        android:text="treatment"/>
+
+    <TextView
+        android:id="@+id/tv_result_preventation"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/tv_result_treatment"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:textSize="10sp"
+        android:text="preventation"/>
+
 
     <Button
         android:id="@+id/btn_result"
@@ -50,6 +79,6 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tv_result" />
+        app:layout_constraintTop_toBottomOf="@+id/tv_result_preventation" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
