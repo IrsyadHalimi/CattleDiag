@@ -5,10 +5,10 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.ScrollView;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.example.cattlediag.R;
@@ -19,7 +19,7 @@ import java.lang.String;
 
 public final class ActivityResultBinding implements ViewBinding {
   @NonNull
-  private final ConstraintLayout rootView;
+  private final ScrollView rootView;
 
   @NonNull
   public final Button btnResult;
@@ -39,7 +39,7 @@ public final class ActivityResultBinding implements ViewBinding {
   @NonNull
   public final TextView tvResultTreatment;
 
-  private ActivityResultBinding(@NonNull ConstraintLayout rootView, @NonNull Button btnResult,
+  private ActivityResultBinding(@NonNull ScrollView rootView, @NonNull Button btnResult,
       @NonNull CircleImageView imgResult, @NonNull TextView result, @NonNull TextView tvResultDesc,
       @NonNull TextView tvResultPreventation, @NonNull TextView tvResultTreatment) {
     this.rootView = rootView;
@@ -53,7 +53,7 @@ public final class ActivityResultBinding implements ViewBinding {
 
   @Override
   @NonNull
-  public ConstraintLayout getRoot() {
+  public ScrollView getRoot() {
     return rootView;
   }
 
@@ -114,7 +114,7 @@ public final class ActivityResultBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityResultBinding((ConstraintLayout) rootView, btnResult, imgResult, result,
+      return new ActivityResultBinding((ScrollView) rootView, btnResult, imgResult, result,
           tvResultDesc, tvResultPreventation, tvResultTreatment);
     }
     String missingId = rootView.getResources().getResourceName(id);

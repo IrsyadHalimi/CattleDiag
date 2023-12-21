@@ -1,4 +1,4 @@
-#Thu Dec 21 06:40:23 PST 2023
+#Thu Dec 21 07:22:54 PST 2023
 base.0=C\:\\Users\\Lenovo\\Desktop\\BANGKIT\\Capstone\\CattleDiag\\Mobile Development\\CattleDiag\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
 base.1=C\:\\Users\\Lenovo\\Desktop\\BANGKIT\\Capstone\\CattleDiag\\Mobile Development\\CattleDiag\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
 base.10=C\:\\Users\\Lenovo\\Desktop\\BANGKIT\\Capstone\\CattleDiag\\Mobile Development\\CattleDiag\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\12\\classes.dex

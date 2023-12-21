@@ -12,23 +12,26 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="CattleDiag"
+        android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.132"
         android:textStyle="bold"
-        android:textSize="30sp"/>
+        android:textSize="40sp"/>
 
     <Button
         android:id="@+id/btn_main"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="150dp"
+        android:layout_height="75dp"
         android:text="Identify"
+        android:textSize="20sp"
+        android:textColor="@color/black"
         android:backgroundTint="@color/brown"
-        app:layout_constraintTop_toBottomOf="@+id/cattlediag"
+        app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="150dp"/>
+        app:layout_constraintBottom_toBottomOf="parent"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

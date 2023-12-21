@@ -33,6 +33,7 @@ layout activity_main
 layout activity_result
 layout activity_splash
 mipmap ic_launcher
+mipmap ic_launcher_foreground
 mipmap ic_launcher_round
 string app_name
 string selected_item
